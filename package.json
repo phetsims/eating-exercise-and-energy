@@ -13,7 +13,6 @@
     "requirejsNamespace": "EATING_EXERCISE_AND_ENERGY",
     "simulation": true,
     "runnable": true,
-    "readmeCreatedManually": true,
     "supportedBrands": [
       "phet",
       "adapted-from-phet"
