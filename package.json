@@ -7,7 +7,7 @@
     "url": "https://github.com/phetsims/eating-exercise-and-energy.git"
   },
   "devDependencies": {
-    "grunt": "~1.1.0"
+    "grunt": "~1.4.0"
   },
   "phet": {
     "requirejsNamespace": "EATING_EXERCISE_AND_ENERGY",
