@@ -3,7 +3,7 @@
 /**
  * Constants used throughout this simulation.
  *
- * @author Sam Reid
+ * @author Sam Reid (PhET Interactive Simulations)
  */
 
 import eatingExerciseAndEnergy from '../eatingExerciseAndEnergy.js';
