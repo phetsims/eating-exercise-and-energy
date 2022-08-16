@@ -5,11 +5,13 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
+import TReadOnlyProperty from '../../axon/js/TReadOnlyProperty.js';
 import eatingExerciseAndEnergy from './eatingExerciseAndEnergy.js';
 
 type StringsType = {
   'eating-exercise-and-energy': {
     'title': string;
+    'titleProperty': TReadOnlyProperty<string>;
   }
 };
 
