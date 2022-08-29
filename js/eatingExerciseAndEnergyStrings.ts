@@ -11,7 +11,7 @@ import eatingExerciseAndEnergy from './eatingExerciseAndEnergy.js';
 type StringsType = {
   'eating-exercise-and-energy': {
     'title': string;
-    'titleProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': TReadOnlyProperty<string>;
   }
 };
 
