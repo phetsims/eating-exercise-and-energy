@@ -10,9 +10,9 @@ import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import EatingExerciseAndEnergyScreen from './eating-exercise-and-energy/EatingExerciseAndEnergyScreen.js';
-import eatingExerciseAndEnergyStrings from './eatingExerciseAndEnergyStrings.js';
+import EatingExerciseAndEnergyStrings from './EatingExerciseAndEnergyStrings.js';
 
-const eatingExerciseAndEnergyTitleStringProperty = eatingExerciseAndEnergyStrings[ 'eating-exercise-and-energy' ].titleStringProperty;
+const eatingExerciseAndEnergyTitleStringProperty = EatingExerciseAndEnergyStrings[ 'eating-exercise-and-energy' ].titleStringProperty;
 
 const simOptions = {
 
