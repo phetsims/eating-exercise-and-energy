@@ -5,13 +5,13 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
-import LinkableProperty from '../../axon/js/LinkableProperty.js';
+import type LocalizedStringProperty from '../../chipper/js/LocalizedStringProperty.js';
 import eatingExerciseAndEnergy from './eatingExerciseAndEnergy.js';
 
 type StringsType = {
   'eating-exercise-and-energy': {
     'title': string;
-    'titleStringProperty': LinkableProperty<string>;
+    'titleStringProperty': LocalizedStringProperty;
   }
 };
 
