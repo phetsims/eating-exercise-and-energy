@@ -14,7 +14,7 @@ class EatingExerciseAndEnergyModel {
    */
   constructor( tandem ) {
     assert && assert( tandem instanceof Tandem, 'invalid tandem' );
-    //TODO
+    //TODO https://github.com/phetsims/tasks/issues/1129
   }
 
   /**
@@ -22,7 +22,7 @@ class EatingExerciseAndEnergyModel {
    * @public
    */
   reset() {
-    //TODO
+    //TODO https://github.com/phetsims/tasks/issues/1129
   }
 
   /**
@@ -31,7 +31,7 @@ class EatingExerciseAndEnergyModel {
    * @public
    */
   step( dt ) {
-    //TODO
+    //TODO https://github.com/phetsims/tasks/issues/1129
   }
 }
 

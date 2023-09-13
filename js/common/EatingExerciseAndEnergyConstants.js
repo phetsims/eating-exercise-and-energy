@@ -13,7 +13,7 @@ const EatingExerciseAndEnergyConstants = {
   SCREEN_VIEW_X_MARGIN: 15,
   SCREEN_VIEW_Y_MARGIN: 15
 
-  //TODO
+  //TODO https://github.com/phetsims/tasks/issues/1129
 };
 
 eatingExerciseAndEnergy.register( 'EatingExerciseAndEnergyConstants', EatingExerciseAndEnergyConstants );

@@ -43,7 +43,7 @@ class EatingExerciseAndEnergyScreenView extends ScreenView {
    * @public
    */
   reset() {
-    //TODO
+    //TODO https://github.com/phetsims/tasks/issues/1129
   }
 
   /**
@@ -52,7 +52,7 @@ class EatingExerciseAndEnergyScreenView extends ScreenView {
    * @public
    */
   step( dt ) {
-    //TODO
+    //TODO https://github.com/phetsims/tasks/issues/1129
   }
 }
 
