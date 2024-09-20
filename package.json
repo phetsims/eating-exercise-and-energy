@@ -28,7 +28,7 @@
         ],
         "parserOptions": {
           "project": [
-            "../eating-exercise-and-energy/tsconfig.json"
+            "../chipper/tsconfig/eslint-all/tsconfig.json"
           ]
         }
       }
