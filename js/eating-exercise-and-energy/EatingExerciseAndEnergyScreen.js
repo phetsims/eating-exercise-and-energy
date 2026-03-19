@@ -6,7 +6,6 @@
 
 import Screen from '../../../joist/js/Screen.js';
 import EatingExerciseAndEnergyColors from '../common/EatingExerciseAndEnergyColors.js';
-import eatingExerciseAndEnergy from '../eatingExerciseAndEnergy.js';
 import EatingExerciseAndEnergyModel from './model/EatingExerciseAndEnergyModel.js';
 import EatingExerciseAndEnergyScreenView from './view/EatingExerciseAndEnergyScreenView.js';
 
@@ -31,5 +30,4 @@ class EatingExerciseAndEnergyScreen extends Screen {
   }
 }
 
-eatingExerciseAndEnergy.register( 'EatingExerciseAndEnergyScreen', EatingExerciseAndEnergyScreen );
 export default EatingExerciseAndEnergyScreen;

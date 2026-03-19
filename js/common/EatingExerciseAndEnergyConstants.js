@@ -6,8 +6,6 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
-import eatingExerciseAndEnergy from '../eatingExerciseAndEnergy.js';
-
 const EatingExerciseAndEnergyConstants = {
 
   SCREEN_VIEW_X_MARGIN: 15,
@@ -16,5 +14,4 @@ const EatingExerciseAndEnergyConstants = {
   //TODO https://github.com/phetsims/tasks/issues/1129
 };
 
-eatingExerciseAndEnergy.register( 'EatingExerciseAndEnergyConstants', EatingExerciseAndEnergyConstants );
 export default EatingExerciseAndEnergyConstants;

@@ -8,7 +8,6 @@ import ScreenView from '../../../../joist/js/ScreenView.js';
 import ResetAllButton from '../../../../scenery-phet/js/buttons/ResetAllButton.js';
 import Tandem from '../../../../tandem/js/Tandem.js';
 import EatingExerciseAndEnergyConstants from '../../common/EatingExerciseAndEnergyConstants.js';
-import eatingExerciseAndEnergy from '../../eatingExerciseAndEnergy.js';
 import EatingExerciseAndEnergyModel from '../model/EatingExerciseAndEnergyModel.js';
 
 class EatingExerciseAndEnergyScreenView extends ScreenView {
@@ -55,5 +54,4 @@ class EatingExerciseAndEnergyScreenView extends ScreenView {
   }
 }
 
-eatingExerciseAndEnergy.register( 'EatingExerciseAndEnergyScreenView', EatingExerciseAndEnergyScreenView );
 export default EatingExerciseAndEnergyScreenView;

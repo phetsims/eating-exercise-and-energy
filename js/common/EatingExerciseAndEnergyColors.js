@@ -7,7 +7,6 @@
  */
 
 import Property from '../../../axon/js/Property.js';
-import eatingExerciseAndEnergy from '../eatingExerciseAndEnergy.js';
 
 const EatingExerciseAndEnergyColors = {
 
@@ -16,5 +15,4 @@ const EatingExerciseAndEnergyColors = {
   //TODO https://github.com/phetsims/tasks/issues/1129
 };
 
-eatingExerciseAndEnergy.register( 'EatingExerciseAndEnergyColors', EatingExerciseAndEnergyColors );
 export default EatingExerciseAndEnergyColors;

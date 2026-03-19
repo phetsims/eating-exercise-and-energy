@@ -5,7 +5,6 @@
  */
 
 import Tandem from '../../../../tandem/js/Tandem.js';
-import eatingExerciseAndEnergy from '../../eatingExerciseAndEnergy.js';
 
 class EatingExerciseAndEnergyModel {
 
@@ -35,5 +34,4 @@ class EatingExerciseAndEnergyModel {
   }
 }
 
-eatingExerciseAndEnergy.register( 'EatingExerciseAndEnergyModel', EatingExerciseAndEnergyModel );
 export default EatingExerciseAndEnergyModel;
