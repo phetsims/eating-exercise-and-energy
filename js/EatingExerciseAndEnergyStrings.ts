@@ -20,4 +20,6 @@ type StringsType = {
 
 const EatingExerciseAndEnergyStrings = getStringModule( 'EATING_EXERCISE_AND_ENERGY' ) as StringsType;
 
+eatingExerciseAndEnergy.register( 'EatingExerciseAndEnergyStrings', EatingExerciseAndEnergyStrings );
+
 export default EatingExerciseAndEnergyStrings;
