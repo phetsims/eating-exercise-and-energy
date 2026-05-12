@@ -11,6 +11,9 @@
   },
   "phet": {
     "requirejsNamespace": "EATING_EXERCISE_AND_ENERGY",
+    "phetLibs": [
+      "bamboo"
+    ],
     "simulation": true,
     "runnable": true,
     "supportedBrands": [

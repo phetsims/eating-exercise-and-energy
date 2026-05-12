@@ -1,5 +1,642 @@
 {
   "eating-exercise-and-energy.title": {
     "value": "Eating, Exercise, and Energy"
+  },
+  "dashboard.title": {
+    "value": "Body Energy"
+  },
+  "readout": {
+    "elapsedTime": {
+      "value": "Elapsed Time"
+    },
+    "age": {
+      "value": "Age"
+    },
+    "height": {
+      "value": "Height"
+    },
+    "mass": {
+      "value": "Weight"
+    },
+    "bmi": {
+      "value": "BMI"
+    },
+    "bodyFat": {
+      "value": "Body Fat"
+    },
+    "bmr": {
+      "value": "BMR"
+    },
+    "intake": {
+      "value": "Intake"
+    },
+    "burn": {
+      "value": "Burned"
+    },
+    "balance": {
+      "value": "Balance"
+    },
+    "heartHealth": {
+      "value": "Heart Health"
+    },
+    "daysPattern": {
+      "value": "{{value}} days"
+    },
+    "monthsPattern": {
+      "value": "{{value}} mo"
+    },
+    "elapsedYearsPattern": {
+      "value": "{{value}} yr"
+    },
+    "yearsPattern": {
+      "value": "{{value}} yr"
+    },
+    "centimetersPattern": {
+      "value": "{{value}} cm"
+    },
+    "feetInchesPattern": {
+      "value": "{{feet}} ft {{inches}} in"
+    },
+    "kilogramsPattern": {
+      "value": "{{value}} kg"
+    },
+    "poundsPattern": {
+      "value": "{{value}} lb"
+    },
+    "percentPattern": {
+      "value": "{{value}}%"
+    },
+    "caloriesPerDayPattern": {
+      "value": "{{value}} Cal/day"
+    },
+    "plainNumberPattern": {
+      "value": "{{value}}"
+    }
+  },
+  "controls": {
+    "start": {
+      "value": "Start"
+    },
+    "pause": {
+      "value": "Pause"
+    },
+    "nextMonth": {
+      "value": "Next Month"
+    },
+    "speed": {
+      "value": "Speed"
+    },
+    "daysPerSecondPattern": {
+      "value": "{{value}} days/sec"
+    }
+  },
+  "bodyControls": {
+    "title": {
+      "value": "Body Settings"
+    },
+    "metric": {
+      "value": "Metric"
+    },
+    "english": {
+      "value": "English"
+    },
+    "gender": {
+      "value": "Physiology"
+    },
+    "female": {
+      "value": "Female"
+    },
+    "male": {
+      "value": "Male"
+    },
+    "lifestyle": {
+      "value": "Lifestyle"
+    },
+    "sedentary": {
+      "value": "Sedentary"
+    },
+    "moderate": {
+      "value": "Moderate"
+    },
+    "active": {
+      "value": "Active"
+    },
+    "autoBodyFat": {
+      "value": "Auto Body Fat"
+    }
+  },
+  "preferences": {
+    "displayUnits": {
+      "value": "Display Units"
+    }
+  },
+  "graph": {
+    "weightTrend": {
+      "value": "Weight Trend"
+    },
+    "calorieTrend": {
+      "value": "Calories Per Day"
+    }
+  },
+  "keyboardHelpDialog": {
+    "foodAndActivity": {
+      "value": "Food and Activity"
+    },
+    "addFoodOrActivityItem": {
+      "value": "Add focused food or activity item"
+    },
+    "removeFoodOrActivityItem": {
+      "value": "Remove focused food or activity item"
+    }
+  },
+  "intakeControls": {
+    "title": {
+      "value": "Daily Calories"
+    },
+    "itemSelectionTitle": {
+      "value": "Food & Activity"
+    },
+    "edit": {
+      "value": "Edit"
+    },
+    "clear": {
+      "value": "Clear"
+    },
+    "values": {
+      "value": "Values"
+    },
+    "perServing": {
+      "value": "Per Serving"
+    },
+    "per15Minutes": {
+      "value": "Per 15 minutes"
+    },
+    "caloriesPattern": {
+      "value": "{{value}} Cal"
+    },
+    "percentLegendPattern": {
+      "value": "{{label}}: {{value}}%"
+    },
+    "foodBar": {
+      "value": "Food"
+    },
+    "energyBar": {
+      "value": "Burned"
+    },
+    "activityBar": {
+      "value": "Activity"
+    },
+    "energyUse": {
+      "value": "Energy Use"
+    },
+    "restingMetabolism": {
+      "value": "Resting"
+    },
+    "lifestyle": {
+      "value": "Lifestyle"
+    },
+    "lipids": {
+      "value": "Fats"
+    },
+    "carbohydrates": {
+      "value": "Carbohydrates"
+    },
+    "protein": {
+      "value": "Protein"
+    },
+    "exercise": {
+      "value": "Exercise"
+    },
+    "foodItem": {
+      "value": "Food"
+    },
+    "exerciseItem": {
+      "value": "Activity"
+    },
+    "presets": {
+      "value": "Presets"
+    },
+    "pizza": {
+      "value": "Pizza"
+    },
+    "fastMeal": {
+      "value": "Fast Meal"
+    },
+    "jog": {
+      "value": "Jog"
+    },
+    "run": {
+      "value": "Run"
+    }
+  },
+  "foodItems": {
+    "balancedDailyDiet": {
+      "value": "balanced daily diet"
+    },
+    "servingCornFlakes": {
+      "value": "serving corn flakes"
+    },
+    "cola12Oz": {
+      "value": "cola (12 oz)"
+    },
+    "slicePizza": {
+      "value": "slice pizza"
+    },
+    "largeFastFoodValueMeal": {
+      "value": "large fast food meal"
+    },
+    "taco": {
+      "value": "taco"
+    },
+    "burrito": {
+      "value": "burrito"
+    },
+    "entirePizza12": {
+      "value": "entire 12-inch pizza"
+    },
+    "peanutButterAndJellySandwich": {
+      "value": "peanut butter and jelly sandwich"
+    },
+    "subSandwich": {
+      "value": "sub sandwich"
+    },
+    "hotDogWithBun": {
+      "value": "hot dog with bun"
+    },
+    "hamburger": {
+      "value": "hamburger"
+    },
+    "quarterLbHamburger": {
+      "value": "quarter-pound hamburger"
+    },
+    "largeFries": {
+      "value": "large fries"
+    },
+    "saladWithDressing": {
+      "value": "salad with dressing"
+    },
+    "cupStrawberries": {
+      "value": "cup of strawberries"
+    },
+    "cupGrapefruit": {
+      "value": "cup of grapefruit"
+    },
+    "apple": {
+      "value": "apple"
+    },
+    "banana": {
+      "value": "banana"
+    },
+    "grapes": {
+      "value": "grapes"
+    },
+    "cupYogurtLowFatPlain": {
+      "value": "cup of low-fat plain yogurt"
+    },
+    "cupYogurtFlavored": {
+      "value": "cup of flavored yogurt"
+    },
+    "cupMilkWhole": {
+      "value": "cup of whole milk"
+    },
+    "cupMilk2": {
+      "value": "cup of 2% milk"
+    },
+    "cupMilkSkim": {
+      "value": "cup of skim milk"
+    },
+    "appleJuice1Cup248G": {
+      "value": "apple juice (1 cup)"
+    },
+    "orangeJuiceNotConcentrate8Oz": {
+      "value": "orange juice (8 oz)"
+    },
+    "iceTea8FlOz": {
+      "value": "iced tea (8 fl oz)"
+    },
+    "lemonade8FlOz": {
+      "value": "lemonade (8 fl oz)"
+    },
+    "dietCola12Oz": {
+      "value": "diet cola (12 oz)"
+    },
+    "hotChocolateWholeMilk": {
+      "value": "hot chocolate with whole milk"
+    },
+    "latteWithWholeMilk": {
+      "value": "latte with whole milk"
+    },
+    "largeSugaryBlendedCoffeeDrink": {
+      "value": "large sugary blended coffee drink"
+    },
+    "largeMilkshake": {
+      "value": "large milkshake"
+    },
+    "milkshake": {
+      "value": "milkshake"
+    },
+    "bakedPotatoInSkinWithSalt": {
+      "value": "baked potato"
+    },
+    "halfCupSweetYellowCorn": {
+      "value": "half cup sweet yellow corn"
+    },
+    "halfCupCauliflowerBoiled": {
+      "value": "half cup boiled cauliflower"
+    },
+    "halfCupCarrotsChopped": {
+      "value": "half cup chopped carrots"
+    },
+    "halfCupBroccoliCooked": {
+      "value": "half cup cooked broccoli"
+    },
+    "servingHoneyHam100G": {
+      "value": "serving of honey ham"
+    },
+    "porkChop3Oz84G": {
+      "value": "pork chop (3 oz)"
+    },
+    "chicken": {
+      "value": "chicken"
+    },
+    "beef": {
+      "value": "beef"
+    },
+    "setOf3SlicesOfBacon": {
+      "value": "3 slices of bacon"
+    },
+    "smallBagPotatoChips": {
+      "value": "small bag of potato chips"
+    },
+    "quarterCupMixedNutsWithPeanuts": {
+      "value": "quarter cup mixed nuts"
+    },
+    "servingCreamFilledCookies": {
+      "value": "cream-filled cookies"
+    },
+    "candyBar": {
+      "value": "candy bar"
+    },
+    "bananaSplit": {
+      "value": "banana split"
+    },
+    "riceCup": {
+      "value": "cup of rice"
+    },
+    "bowlOfPasta": {
+      "value": "bowl of pasta"
+    },
+    "sliceOfBread": {
+      "value": "slice of bread"
+    },
+    "bagel": {
+      "value": "bagel"
+    },
+    "pancakes": {
+      "value": "pancakes"
+    },
+    "syrup": {
+      "value": "syrup"
+    },
+    "egg": {
+      "value": "egg"
+    },
+    "butter": {
+      "value": "butter"
+    },
+    "creamCheese": {
+      "value": "cream cheese"
+    }
+  },
+  "exerciseItems": {
+    "swimmingLaps": {
+      "value": "swimming laps"
+    },
+    "basketball": {
+      "value": "basketball"
+    },
+    "skateboarding": {
+      "value": "skateboarding"
+    },
+    "bikingToWorkOrForLeisure10Mph": {
+      "value": "biking for leisure"
+    },
+    "jogging": {
+      "value": "jogging"
+    },
+    "runningStairs": {
+      "value": "running stairs"
+    },
+    "running8Mph75MinMile": {
+      "value": "running 8 mph"
+    },
+    "running10Mph6MinMile": {
+      "value": "running 10 mph"
+    },
+    "backpacking": {
+      "value": "backpacking"
+    },
+    "rockOrMountainClimbing": {
+      "value": "rock or mountain climbing"
+    },
+    "snowshoeing": {
+      "value": "snowshoeing"
+    },
+    "crossCountrySkiing": {
+      "value": "cross-country skiing"
+    },
+    "downhillSkiingModerateEffort": {
+      "value": "downhill skiing"
+    },
+    "pilates": {
+      "value": "pilates"
+    },
+    "judoKarateTaeKwanDo": {
+      "value": "judo, karate, or tae kwon do"
+    },
+    "surfing": {
+      "value": "surfing"
+    },
+    "canoeing": {
+      "value": "canoeing"
+    },
+    "kayaking": {
+      "value": "kayaking"
+    },
+    "whitewaterRafting": {
+      "value": "whitewater rafting"
+    },
+    "rowingCrew": {
+      "value": "rowing crew"
+    },
+    "horsebackRiding": {
+      "value": "horseback riding"
+    },
+    "mountainOrBMXBiking": {
+      "value": "mountain or BMX biking"
+    },
+    "roadBiking1015Mph": {
+      "value": "road biking 10-15 mph"
+    },
+    "roadBikingRacing16MphUp": {
+      "value": "road biking racing pace"
+    },
+    "unicycling": {
+      "value": "unicycling"
+    },
+    "weightLiftingLightEffort": {
+      "value": "light weight lifting"
+    },
+    "weightLiftingBodyBuilding": {
+      "value": "body-building weight lifting"
+    },
+    "iceSkating": {
+      "value": "ice skating"
+    },
+    "rollerBlading": {
+      "value": "roller blading"
+    },
+    "bowling": {
+      "value": "bowling"
+    },
+    "beachVolleyball": {
+      "value": "beach volleyball"
+    },
+    "nonCompetitiveVolleyball": {
+      "value": "non-competitive volleyball"
+    },
+    "playingCatchFootballOrBaseball": {
+      "value": "playing catch"
+    },
+    "tennisSingles": {
+      "value": "tennis singles"
+    },
+    "tennisDoubles": {
+      "value": "tennis doubles"
+    },
+    "tableTennis": {
+      "value": "table tennis"
+    },
+    "squash": {
+      "value": "squash"
+    },
+    "soccer": {
+      "value": "soccer"
+    },
+    "lacrosse": {
+      "value": "lacrosse"
+    },
+    "ultimateFrisbee": {
+      "value": "ultimate frisbee"
+    },
+    "hockeyIceOrField": {
+      "value": "hockey"
+    },
+    "walkingForPleasureLikeOnABreak": {
+      "value": "walking for pleasure"
+    },
+    "pushingAStrollerWithAKid": {
+      "value": "pushing a stroller"
+    },
+    "mowingLawn": {
+      "value": "mowing lawn"
+    },
+    "gardening": {
+      "value": "gardening"
+    },
+    "vacuuming": {
+      "value": "vacuuming"
+    },
+    "jumpingRope": {
+      "value": "jumping rope"
+    },
+    "dancing": {
+      "value": "dancing"
+    },
+    "dancingFastDiscoFolkLineDancing": {
+      "value": "fast dancing"
+    },
+    "dancingBalletOrModern": {
+      "value": "ballet or modern dancing"
+    },
+    "fishingInStreamFlyfishing": {
+      "value": "fly fishing"
+    },
+    "golfWalkingAndCarryingClubs": {
+      "value": "golf, walking and carrying clubs"
+    },
+    "golfUsingPowerCart": {
+      "value": "golf using power cart"
+    },
+    "drivingHeavyTruck": {
+      "value": "driving heavy truck"
+    }
+  },
+  "healthNote": {
+    "title": {
+      "value": "Health Note"
+    },
+    "body": {
+      "value": "<b>Disclaimer:</b> This simulation is for learning about simplified energy balance. It is not medical advice and does not include many health factors, such as genetics, medications, pregnancy, illness, or individual nutrition needs.<br><br>\n<b>BMI:</b> Body Mass Index compares weight with height. It is a quick estimate that can be useful for looking at patterns in groups, but it does not directly measure muscle, bone, or body fat.<br><br>\n<b>BMR:</b> Basal Metabolic Rate is the energy your body uses each day for basic functions like breathing, circulating blood, and keeping body temperature steady while resting.<br><br>\n<b>Body Fat:</b> This is the percent of body weight that is fat tissue. Some body fat is needed for stored energy, hormones, insulation, and organ protection.<br><br>\n<b>Heart Health:</b> This is a simplified score in this simulation. It improves up to 100% with activity and exercise, and decreases with body fat, but it is not a medical measurement of a real person's heart health."
+    }
+  },
+  "healthWarnings": {
+    "starvingTitle": {
+      "value": "Starving!"
+    },
+    "starvingBody": {
+      "value": "Body fat is below the starvation threshold. Increase food intake or reduce calorie burn."
+    },
+    "stoppedTitle": {
+      "value": "Simulation Stopped"
+    },
+    "stoppedBody": {
+      "value": "Sustained starvation stopped the body model. Reset to start over."
+    }
+  },
+  "a11y": {
+    "screenSummary": {
+      "playArea": {
+        "value": "The play area shows body-energy readouts, a body picture, weight and calorie trend graphs, and food and activity choices."
+      },
+      "controlArea": {
+        "value": "The control area has time controls, daily calorie controls, body settings, and Reset All."
+      },
+      "currentDetails": {
+        "value": "Elapsed time { $elapsedTime }, age { $age } years, weight { $weight }, BMI { $bmi }, body fat { $bodyFat } percent, BMR { $bmr } Calories per day, intake { $intake } Calories per day, burn { $burn } Calories per day, balance { $balance } Calories per day, and heart health { $heartHealth } percent."
+      },
+      "interactionHint": {
+        "value": "Adjust food, activity, body settings, or time controls to explore how calorie balance changes weight and body composition."
+      }
+    },
+    "stepperControls": {
+      "decrease": {
+        "value": "Decrease { $label }"
+      },
+      "increase": {
+        "value": "Increase { $label }"
+      }
+    },
+    "intakeControls": {
+      "clearFood": {
+        "value": "Clear food"
+      },
+      "clearExercise": {
+        "value": "Clear exercise"
+      }
+    },
+    "preferences": {
+      "displayUnits": {
+        "accessibleName": {
+          "value": "Display units"
+        },
+        "accessibleHelpText": {
+          "value": "Choose Metric or English units for height and weight readouts."
+        }
+      }
+    },
+    "itemCalories": {
+      "value": "{ $label }, { $calories } Calories per day"
+    }
   }
 }

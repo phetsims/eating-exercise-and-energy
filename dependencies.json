@@ -8,6 +8,10 @@
     "sha": "2da6c6173a0ed6bedc1dad8a5fffac27faaf5259",
     "branch": "main"
   },
+  "bamboo": {
+    "sha": "beff3cf5f509d1aa7ec28b6317c49f10ea44905d",
+    "branch": "main"
+  },
   "brand": {
     "sha": "40dd405ec950d10e15e957cbda3d97362e925bef",
     "branch": "main"

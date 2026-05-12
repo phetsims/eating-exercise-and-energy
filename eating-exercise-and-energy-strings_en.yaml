@@ -1,0 +1,237 @@
+eating-exercise-and-energy.title: Eating, Exercise, and Energy
+
+dashboard.title: Body Energy
+
+readout:
+  elapsedTime: Elapsed Time
+  age: Age
+  height: Height
+  mass: Weight
+  bmi: BMI
+  bodyFat: Body Fat
+  bmr: BMR
+  intake: Intake
+  burn: Burned
+  balance: Balance
+  heartHealth: Heart Health
+  daysPattern: '{{value}} days'
+  monthsPattern: '{{value}} mo'
+  elapsedYearsPattern: '{{value}} yr'
+  yearsPattern: '{{value}} yr'
+  centimetersPattern: '{{value}} cm'
+  feetInchesPattern: '{{feet}} ft {{inches}} in'
+  kilogramsPattern: '{{value}} kg'
+  poundsPattern: '{{value}} lb'
+  percentPattern: '{{value}}%'
+  caloriesPerDayPattern: '{{value}} Cal/day'
+  plainNumberPattern: '{{value}}'
+
+controls:
+  start: Start
+  pause: Pause
+  nextMonth: Next Month
+  speed: Speed
+  daysPerSecondPattern: '{{value}} days/sec'
+
+bodyControls:
+  title: Body Settings
+  metric: Metric
+  english: English
+  gender: Physiology
+  female: Female
+  male: Male
+  lifestyle: Lifestyle
+  sedentary: Sedentary
+  moderate: Moderate
+  active: Active
+  autoBodyFat: Auto Body Fat
+
+preferences:
+  displayUnits: Display Units
+
+graph:
+  weightTrend: Weight Trend
+  calorieTrend: Calories Per Day
+
+keyboardHelpDialog:
+  foodAndActivity: Food and Activity
+  addFoodOrActivityItem: Add focused food or activity item
+  removeFoodOrActivityItem: Remove focused food or activity item
+
+intakeControls:
+  title: Daily Calories
+  itemSelectionTitle: Food & Activity
+  edit: Edit
+  clear: Clear
+  values: Values
+  perServing: Per Serving
+  per15Minutes: Per 15 minutes
+  caloriesPattern: '{{value}} Cal'
+  percentLegendPattern: '{{label}}: {{value}}%'
+  foodBar: Food
+  energyBar: Burned
+  activityBar: Activity
+  energyUse: Energy Use
+  restingMetabolism: Resting
+  lifestyle: Lifestyle
+  lipids: Fats
+  carbohydrates: Carbohydrates
+  protein: Protein
+  exercise: Exercise
+  foodItem: Food
+  exerciseItem: Activity
+  presets: Presets
+  pizza: Pizza
+  fastMeal: Fast Meal
+  jog: Jog
+  run: Run
+
+foodItems:
+  balancedDailyDiet: balanced daily diet
+  servingCornFlakes: serving corn flakes
+  cola12Oz: cola (12 oz)
+  slicePizza: slice pizza
+  largeFastFoodValueMeal: large fast food meal
+  taco: taco
+  burrito: burrito
+  entirePizza12: entire 12-inch pizza
+  peanutButterAndJellySandwich: peanut butter and jelly sandwich
+  subSandwich: sub sandwich
+  hotDogWithBun: hot dog with bun
+  hamburger: hamburger
+  quarterLbHamburger: quarter-pound hamburger
+  largeFries: large fries
+  saladWithDressing: salad with dressing
+  cupStrawberries: cup of strawberries
+  cupGrapefruit: cup of grapefruit
+  apple: apple
+  banana: banana
+  grapes: grapes
+  cupYogurtLowFatPlain: cup of low-fat plain yogurt
+  cupYogurtFlavored: cup of flavored yogurt
+  cupMilkWhole: cup of whole milk
+  cupMilk2: cup of 2% milk
+  cupMilkSkim: cup of skim milk
+  appleJuice1Cup248G: apple juice (1 cup)
+  orangeJuiceNotConcentrate8Oz: orange juice (8 oz)
+  iceTea8FlOz: iced tea (8 fl oz)
+  lemonade8FlOz: lemonade (8 fl oz)
+  dietCola12Oz: diet cola (12 oz)
+  hotChocolateWholeMilk: hot chocolate with whole milk
+  latteWithWholeMilk: latte with whole milk
+  largeSugaryBlendedCoffeeDrink: large sugary blended coffee drink
+  largeMilkshake: large milkshake
+  milkshake: milkshake
+  bakedPotatoInSkinWithSalt: baked potato
+  halfCupSweetYellowCorn: half cup sweet yellow corn
+  halfCupCauliflowerBoiled: half cup boiled cauliflower
+  halfCupCarrotsChopped: half cup chopped carrots
+  halfCupBroccoliCooked: half cup cooked broccoli
+  servingHoneyHam100G: serving of honey ham
+  porkChop3Oz84G: pork chop (3 oz)
+  chicken: chicken
+  beef: beef
+  setOf3SlicesOfBacon: 3 slices of bacon
+  smallBagPotatoChips: small bag of potato chips
+  quarterCupMixedNutsWithPeanuts: quarter cup mixed nuts
+  servingCreamFilledCookies: cream-filled cookies
+  candyBar: candy bar
+  bananaSplit: banana split
+  riceCup: cup of rice
+  bowlOfPasta: bowl of pasta
+  sliceOfBread: slice of bread
+  bagel: bagel
+  pancakes: pancakes
+  syrup: syrup
+  egg: egg
+  butter: butter
+  creamCheese: cream cheese
+
+exerciseItems:
+  swimmingLaps: swimming laps
+  basketball: basketball
+  skateboarding: skateboarding
+  bikingToWorkOrForLeisure10Mph: biking for leisure
+  jogging: jogging
+  runningStairs: running stairs
+  running8Mph75MinMile: running 8 mph
+  running10Mph6MinMile: running 10 mph
+  backpacking: backpacking
+  rockOrMountainClimbing: rock or mountain climbing
+  snowshoeing: snowshoeing
+  crossCountrySkiing: cross-country skiing
+  downhillSkiingModerateEffort: downhill skiing
+  pilates: pilates
+  judoKarateTaeKwanDo: judo, karate, or tae kwon do
+  surfing: surfing
+  canoeing: canoeing
+  kayaking: kayaking
+  whitewaterRafting: whitewater rafting
+  rowingCrew: rowing crew
+  horsebackRiding: horseback riding
+  mountainOrBMXBiking: mountain or BMX biking
+  roadBiking1015Mph: road biking 10-15 mph
+  roadBikingRacing16MphUp: road biking racing pace
+  unicycling: unicycling
+  weightLiftingLightEffort: light weight lifting
+  weightLiftingBodyBuilding: body-building weight lifting
+  iceSkating: ice skating
+  rollerBlading: roller blading
+  bowling: bowling
+  beachVolleyball: beach volleyball
+  nonCompetitiveVolleyball: non-competitive volleyball
+  playingCatchFootballOrBaseball: playing catch
+  tennisSingles: tennis singles
+  tennisDoubles: tennis doubles
+  tableTennis: table tennis
+  squash: squash
+  soccer: soccer
+  lacrosse: lacrosse
+  ultimateFrisbee: ultimate frisbee
+  hockeyIceOrField: hockey
+  walkingForPleasureLikeOnABreak: walking for pleasure
+  pushingAStrollerWithAKid: pushing a stroller
+  mowingLawn: mowing lawn
+  gardening: gardening
+  vacuuming: vacuuming
+  jumpingRope: jumping rope
+  dancing: dancing
+  dancingFastDiscoFolkLineDancing: fast dancing
+  dancingBalletOrModern: ballet or modern dancing
+  fishingInStreamFlyfishing: fly fishing
+  golfWalkingAndCarryingClubs: golf, walking and carrying clubs
+  golfUsingPowerCart: golf using power cart
+  drivingHeavyTruck: driving heavy truck
+
+healthNote:
+  title: Health Note
+  body: |-
+    <b>Disclaimer:</b> This simulation is for learning about simplified energy balance. It is not medical advice and does not include many health factors, such as genetics, medications, pregnancy, illness, or individual nutrition needs.<br><br>
+    <b>BMI:</b> Body Mass Index compares weight with height. It is a quick estimate that can be useful for looking at patterns in groups, but it does not directly measure muscle, bone, or body fat.<br><br>
+    <b>BMR:</b> Basal Metabolic Rate is the energy your body uses each day for basic functions like breathing, circulating blood, and keeping body temperature steady while resting.<br><br>
+    <b>Body Fat:</b> This is the percent of body weight that is fat tissue. Some body fat is needed for stored energy, hormones, insulation, and organ protection.<br><br>
+    <b>Heart Health:</b> This is a simplified score in this simulation. It improves up to 100% with activity and exercise, and decreases with body fat, but it is not a medical measurement of a real person's heart health.
+
+healthWarnings:
+  starvingTitle: Starving!
+  starvingBody: Body fat is below the starvation threshold. Increase food intake or reduce calorie burn.
+  stoppedTitle: Simulation Stopped
+  stoppedBody: Sustained starvation stopped the body model. Reset to start over.
+
+a11y:
+  screenSummary:
+    playArea: The play area shows body-energy readouts, a body picture, weight and calorie trend graphs, and food and activity choices.
+    controlArea: The control area has time controls, daily calorie controls, body settings, and Reset All.
+    currentDetails: 'Elapsed time { $elapsedTime }, age { $age } years, weight { $weight }, BMI { $bmi }, body fat { $bodyFat } percent, BMR { $bmr } Calories per day, intake { $intake } Calories per day, burn { $burn } Calories per day, balance { $balance } Calories per day, and heart health { $heartHealth } percent.'
+    interactionHint: Adjust food, activity, body settings, or time controls to explore how calorie balance changes weight and body composition.
+  stepperControls:
+    decrease: 'Decrease { $label }'
+    increase: 'Increase { $label }'
+  intakeControls:
+    clearFood: Clear food
+    clearExercise: Clear exercise
+  preferences:
+    displayUnits:
+      accessibleName: Display units
+      accessibleHelpText: Choose Metric or English units for height and weight readouts.
+  itemCalories: '{ $label }, { $calories } Calories per day'
