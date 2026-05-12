@@ -1940,7 +1940,7 @@ const createFoodActivityToolNode = ( item: IntentionalAny, labelStringProperty: 
       draggedSegmentNode && dragBounds && ( draggedSegmentNode.center = getConstrainedDragCenter( contentNode, dragBounds, draggedSegmentNode, event.pointer.point ) );
     },
     end: ( event: IntentionalAny ) => {
-      if ( dropZone.globalBounds.containsPoint( event.pointer.point ) ) {
+      if ( event && dropZone.globalBounds.containsPoint( event.pointer.point ) ) {
         addItem( key );
       }
       hidePreview();
@@ -2065,7 +2065,7 @@ const createRemovableBarSegment = ( item: IntentionalAny, labelStringProperty: I
       }
     },
     end: ( event: IntentionalAny ) => {
-      if ( dropZone.globalBounds.containsPoint( event.pointer.point ) ) {
+      if ( !event || dropZone.globalBounds.containsPoint( event.pointer.point ) ) {
         addItem( dailyItem.key );
       }
       if ( draggedSegmentNode ) {
