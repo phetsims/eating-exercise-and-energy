@@ -28,6 +28,7 @@ import Orientation from '../../../../phet-core/js/Orientation.js';
 import ScreenSummaryContent from '../../../../joist/js/ScreenSummaryContent.js';
 import ScreenView from '../../../../joist/js/ScreenView.js';
 import ArrowNode from '../../../../scenery-phet/js/ArrowNode.js';
+import AccessibleInteractiveOptions from '../../../../scenery-phet/js/accessibility/AccessibleInteractiveOptions.js';
 import InfoButton from '../../../../scenery-phet/js/buttons/InfoButton.js';
 import ResetAllButton from '../../../../scenery-phet/js/buttons/ResetAllButton.js';
 import TrashButton from '../../../../scenery-phet/js/buttons/TrashButton.js';
@@ -2016,8 +2017,10 @@ const createRemovableBarSegment = ( item: IntentionalAny, labelStringProperty: I
   const id = dailyItem.id;
   const segmentNode = new InteractiveHighlightingNode( {
     cursor: 'pointer',
-    tagName: 'div',
-    focusable: true,
+    tagName: AccessibleInteractiveOptions.tagName,
+    focusable: AccessibleInteractiveOptions.focusable,
+    ariaRole: AccessibleInteractiveOptions.ariaRole,
+    accessibleNameBehavior: AccessibleInteractiveOptions.accessibleNameBehavior,
     accessibleName: EatingExerciseAndEnergyFluent.a11y.itemCalories.createProperty( {
       label: labelStringProperty,
       calories: new NumberProperty( roundSymmetric( caloriesPerDay ) )
