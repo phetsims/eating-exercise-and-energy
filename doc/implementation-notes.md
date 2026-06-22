@@ -42,7 +42,7 @@ The first accessibility layer includes screen summary content, PDOM ordering, ac
 Use the monorepo check from the repository root:
 
 ```bash
-npm run check
+bin/check
 ```
 
 Use the local PhET server for browser smoke testing:
